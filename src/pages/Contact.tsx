@@ -1,4 +1,3 @@
-import Card from "../components/Card"
 
 const Contact = () => {
   return (
@@ -9,7 +8,6 @@ const Contact = () => {
                 <h2>clothing</h2>
             </div>
 
-            <Card/>
 
         </div>
     </div>

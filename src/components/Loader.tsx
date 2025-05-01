@@ -1,7 +1,10 @@
 
 const Loader = () => {
   return (
-    <div>Loader</div>
+    <div className="flex items-center justify-center min-h-[90vh]">
+
+    <span className="loader"></span>
+    </div>
   )
 }
 
