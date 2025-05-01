@@ -1,7 +1,7 @@
 
 const ErrorPage = () => {
   return (
-    <div>ErrorPage</div>
+    <div className="flex items-center cf justify-center min-h-[90vh] py-12">ErrorPage</div>
   )
 }
 

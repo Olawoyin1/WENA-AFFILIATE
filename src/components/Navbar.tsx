@@ -62,7 +62,7 @@ const MainNavbar = () => {
           <div className="px-8 flex flex-col pt-8 space-y-6 text-lg sf  font-bold uppercase">
             <Link to="/" onClick={toggleMenu}>Home</Link>
             <Link to="/clothing" onClick={toggleMenu}>clothing</Link>
-            <Link to="/product" onClick={toggleMenu}>products</Link>
+            <Link to="/products" onClick={toggleMenu}>products</Link>
             <Link to="/food" onClick={toggleMenu}>food</Link>
             <Link to="/travel" onClick={toggleMenu}>travel</Link>
             <Link to="/services" onClick={toggleMenu}>services</Link>
