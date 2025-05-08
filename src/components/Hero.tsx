@@ -67,8 +67,8 @@ const Hero = () => {
           </svg>
 
           <div className="pt-10 mx-auto max-w-7xl px-4 sm:pt-12 s md:pt-16 lg:pt-20  xl:pt-28">
-            <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl cf tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <div className="text-center lg:text-left">
+              <h1 className="text-3xl text-center lg:text-start cf tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Discover the Best</span>{' '}
                 <span className="block text-[#9B87F5] xl:inline">Affiliate Products</span>
               </h1>
