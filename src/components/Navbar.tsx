@@ -31,11 +31,11 @@ const MainNavbar = () => {
           <div className="hidden cf font-extrabold md:flex justify-between items-center py-4">
             <Link to="/">WENA AFFILIATE</Link>
             <nav className="flex space-x-6 text-sm font-semibold sf uppercase">
-              <Link to="/clothing" className="hover:text-[#F8B44F] transition ease-in">clothing</Link>
-              <Link to="/products" className="hover:text-[#F8B44F] transition ease-in">products</Link>
-              <Link to="/food" className="hover:text-[#F8B44F] transition ease-in">food</Link>
-              <Link to="/travel" className="hover:text-[#F8B44F] transition ease-in">Travel</Link>
-              <Link to="/services" className="hover:text-[#F8B44F] transition ease-in">Services</Link>
+              <Link to="/categories/clothing" className="hover:text-[#F8B44F] transition ease-in">clothing</Link>
+              <Link to="/categories/products" className="hover:text-[#F8B44F] transition ease-in">products</Link>
+              <Link to="/categories/food" className="hover:text-[#F8B44F] transition ease-in">food</Link>
+              <Link to="/categories/travel" className="hover:text-[#F8B44F] transition ease-in">Travel</Link>
+              <Link to="/categories/services" className="hover:text-[#F8B44F] transition ease-in">Services</Link>
             </nav>
           </div>
 
@@ -61,11 +61,11 @@ const MainNavbar = () => {
           </div>
           <div className="px-8 flex flex-col pt-8 space-y-6 text-lg sf  font-bold uppercase">
             <Link to="/" onClick={toggleMenu}>Home</Link>
-            <Link to="/clothing" onClick={toggleMenu}>clothing</Link>
-            <Link to="/products" onClick={toggleMenu}>products</Link>
-            <Link to="/food" onClick={toggleMenu}>food</Link>
-            <Link to="/travel" onClick={toggleMenu}>travel</Link>
-            <Link to="/services" onClick={toggleMenu}>services</Link>
+            <Link to="/categories/clothing" onClick={toggleMenu}>clothing</Link>
+            <Link to="/categories/products" onClick={toggleMenu}>products</Link>
+            <Link to="/categories/food" onClick={toggleMenu}>food</Link>
+            <Link to="/categories/travel" onClick={toggleMenu}>travel</Link>
+            <Link to="/categories/services" onClick={toggleMenu}>services</Link>
           </div>
           <div className="absolute bottom-4 left-8">
             <p className="text-xs text-gray-500">

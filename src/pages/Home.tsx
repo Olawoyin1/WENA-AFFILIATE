@@ -1,11 +1,18 @@
+import CategorySection from "../components/CategoryCard";
+import FeaturedProducts from "../components/FeaturedProject";
+import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
+
 
 const Home = () => {
   return (
-    <section className="flex items-center justify-center min-h-[90vh]">
-       
-        <h2 className="cf font-bold text-center">Homepage </h2>
-      </section>
-  )
-}
+    <main>
+      <Hero />
+      <CategorySection />
+      <FeaturedProducts />
+      <HowItWorks />
+    </main>
+  );
+};
 
-export default Home
+export default Home;

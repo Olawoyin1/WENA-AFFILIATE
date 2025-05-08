@@ -16,12 +16,14 @@ import Food from "./pages/Food";
 import Products from "./pages/Products";
 import Travel from "./pages/Travel";
 import Clothing from "./pages/Clothing";
+import ProductPage from "./pages/ProductPage";
 
 // Lazy imports
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Services = lazy(() => import("./pages/Services"));
 const Contact = lazy(() => import("./pages/Contact"));
+const CategoryPage = lazy(() => import("./pages/CategoryPage"));
 const ErrorPage = lazy(() => import("./pages/ErrorPage"));
 const SharedLayout = lazy(() => import("./components/SharedLayout"));
 
@@ -40,6 +42,24 @@ const main = createBrowserRouter(
         element={
           <Suspense fallback={<Loader />}>
             <Home />
+          </Suspense>
+        }
+      />
+
+      
+      <Route
+        path="/product/:id"
+        element={
+          <Suspense fallback={<Loader />}>
+            <ProductPage />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/categories/:category"
+        element={
+          <Suspense fallback={<Loader />}>
+            <CategoryPage />
           </Suspense>
         }
       />
