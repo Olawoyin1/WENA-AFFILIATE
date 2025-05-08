@@ -96,11 +96,11 @@ const ProductPage = () => {
           
           {/* Product details */}
           <div className="mt-10 px-4 sm:px-0 sm:mt-16 lg:mt-0">
-            <h1 className="text-3xl font-extrabold text-gray-800">{product.title}</h1>
+            <h1 className="text-3xl font-bold text-gray-800">{product.title}</h1>
             
             <div className="mt-3">
               <h2 className="sr-only">Product information</h2>
-              <h1 className="text-4xl  text-gray-900">₦{product.price.toFixed(2)}</h1>
+              <h1 className=" text-2xl md:text-4xl  text-gray-900">₦{product.price.toFixed(2)}</h1>
             </div>
             
             <div className="mt-3">

@@ -85,12 +85,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
       <div className="p-4 pt-0">
         <div className="w-full flex space-x-2">
-          <button  className="flex-1 color">
+          <button  className="flex-1 rounded color">
             <a href={product.affiliate_url} target="_blank" rel="noopener noreferrer">
               Buy Now
             </a>
           </button>
-          <button  className="flex-1 border border-gray-300">
+          <button  className="flex-1 border rounded border-gray-300">
             <Link to={`/product/${product.id}`}>
               View Details
             </Link>
